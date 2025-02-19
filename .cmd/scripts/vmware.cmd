@@ -1,1 +1,1 @@
-@start /b "" "C:\Program Files (x86)\VMware\VMware Workstation\vmware.exe" %*
+@start /b "" "D:\Apps\VMware Workstation\vmware.exe" %*

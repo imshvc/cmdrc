@@ -4,7 +4,7 @@ rem authors:     Nurudin Imsirovic <imshvc>
 rem file:        rc.cmd
 rem description: Command Prompt Init File
 rem created:     2025-02-10 07:37 AM
-rem updated:     2025-02-10 08:52 AM
+rem updated:     2025-02-19 07:13 PM
 rem repo:        https://github.com/imshvc/cmdrc
 
 rem developer variables
@@ -29,8 +29,8 @@ if %IS_ADMIN% equ 1 (
 rem unset variables
 set IS_ADMIN=
 
-rem common aliases
-doskey .=explorer $*
+rem common aliases - they're case-insensitive
+doskey .=explorer %CD%\$*
 doskey ..=cd ..
 doskey path=echo %%PATH%%
 doskey clear=cls
@@ -38,8 +38,6 @@ doskey c=cls
 doskey q=exit
 doskey r=cd \
 
-rem hack: close the terminal window with: Ctrl + D + Enter
-doskey =exit
-
-rem include scripts
-set PATH=%~dp0scripts;%PATH%
+rem deprecated: include scripts
+rem deprecated: set PATH=%~dp0scripts;%~dp0bin;%PATH%
+rem see under INSTALLATION in README.md

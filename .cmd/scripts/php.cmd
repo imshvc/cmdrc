@@ -1,1 +1,1 @@
-@"C:\php\php.exe" %*
+@"D:\Apps\PHP\php.exe" %*

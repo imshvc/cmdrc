@@ -1,1 +1,1 @@
-@"C:\Program Files (x86)\VMware\VMware Workstation\bin\vctl.exe" %*
+@"D:\Apps\VMware Workstation\bin\vctl.exe" %*
