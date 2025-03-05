@@ -4,14 +4,11 @@ rem authors:     Nurudin Imsirovic <imshvc>
 rem file:        rc.cmd
 rem description: Command Prompt Init File
 rem created:     2025-02-10 07:37 AM
-rem updated:     2025-02-19 07:13 PM
+rem updated:     2025-03-05 11:54 PM
 rem repo:        https://github.com/imshvc/cmdrc
 
 rem developer variables
 set IS_ADMIN=0
-
-rem hide version output
-cls
 
 rem set administrator state
 net.exe session 1>nul 2>&1
