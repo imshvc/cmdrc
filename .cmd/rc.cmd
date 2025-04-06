@@ -1,10 +1,10 @@
 @echo off
 
-rem authors:     Nurudin Imsirovic <imshvc>
+rem authors:     Nurudin Imsirovic
 rem file:        rc.cmd
 rem description: Command Prompt Init File
 rem created:     2025-02-10 07:37 AM
-rem updated:     2025-03-05 11:54 PM
+rem updated:     2025-04-06 06:19 AM
 rem repo:        https://github.com/imshvc/cmdrc
 
 rem developer variables
@@ -33,6 +33,9 @@ doskey path=echo %%PATH%%
 doskey clear=cls
 doskey c=cls
 doskey q=exit
+doskey qq=q
+doskey qqq=q
+doskey qqqq=q
 doskey r=cd \
 
 rem deprecated: include scripts
